@@ -18,8 +18,8 @@ class SignInViewController: UIViewController {
             let password = passwordTextField.text,
            !username.isEmpty && !password.isEmpty {
 
-            let appsTableViewControllerv = AppsViewController(nibName: "AppsViewController", bundle: Bundle.main)
-            navigationController?.pushViewController(appsTableViewControllerv, animated: true)
+            let appsTableViewController = AppsViewController(nibName: "AppsViewController", bundle: Bundle.main)
+            navigationController?.pushViewController(appsTableViewController, animated: true)
 
 
         } else {
