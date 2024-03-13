@@ -13,13 +13,14 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var signInButton: UIButton!
+    
     @IBAction func signInAction(_ sender: Any) {
         if let username = usernameTextField.text,
             let password = passwordTextField.text,
            !username.isEmpty && !password.isEmpty {
 
-            let appsTableViewController = AppsViewController(nibName: "AppsViewController", bundle: Bundle.main)
-            navigationController?.pushViewController(appsTableViewController, animated: true)
+            let booksTableViewController = BooksViewController(nibName: "BooksViewController", bundle: Bundle.main)
+            navigationController?.pushViewController(booksTableViewController, animated: true)
 
 
         } else {

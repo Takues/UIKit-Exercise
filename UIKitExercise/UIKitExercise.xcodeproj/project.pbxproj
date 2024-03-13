@@ -17,8 +17,10 @@
 		718B71FC2BA0887A004D2711 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718B71FA2BA0887A004D2711 /* SignInViewController.swift */; };
 		718B71FD2BA0887A004D2711 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 718B71FB2BA0887A004D2711 /* SignInViewController.xib */; };
 		718B72062BA09479004D2711 /* SignInExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718B72052BA09479004D2711 /* SignInExtension.swift */; };
-		718B72092BA18E12004D2711 /* AppsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 718B72082BA18E12004D2711 /* AppsViewController.xib */; };
-		718B720A2BA18E12004D2711 /* AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718B72072BA18E12004D2711 /* AppsViewController.swift */; };
+		718B72092BA18E12004D2711 /* BooksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 718B72082BA18E12004D2711 /* BooksViewController.xib */; };
+		718B720A2BA18E12004D2711 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718B72072BA18E12004D2711 /* BooksViewController.swift */; };
+		719E1DA82BA19A9D0093DAB5 /* BooksTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719E1DA72BA19A9D0093DAB5 /* BooksTableViewCell.xib */; };
+		719E1DA92BA19A9D0093DAB5 /* BooksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719E1DA62BA19A9D0093DAB5 /* BooksTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +36,10 @@
 		718B71FA2BA0887A004D2711 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		718B71FB2BA0887A004D2711 /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 		718B72052BA09479004D2711 /* SignInExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInExtension.swift; sourceTree = "<group>"; };
-		718B72072BA18E12004D2711 /* AppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsViewController.swift; sourceTree = "<group>"; };
-		718B72082BA18E12004D2711 /* AppsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppsViewController.xib; sourceTree = "<group>"; };
+		718B72072BA18E12004D2711 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		718B72082BA18E12004D2711 /* BooksViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BooksViewController.xib; sourceTree = "<group>"; };
+		719E1DA62BA19A9D0093DAB5 /* BooksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewCell.swift; sourceTree = "<group>"; };
+		719E1DA72BA19A9D0093DAB5 /* BooksTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BooksTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +83,10 @@
 				718B71EC2BA07938004D2711 /* UIKitExercise.xcdatamodeld */,
 				718B71FA2BA0887A004D2711 /* SignInViewController.swift */,
 				718B71FB2BA0887A004D2711 /* SignInViewController.xib */,
-				718B72072BA18E12004D2711 /* AppsViewController.swift */,
-				718B72082BA18E12004D2711 /* AppsViewController.xib */,
+				718B72072BA18E12004D2711 /* BooksViewController.swift */,
+				718B72082BA18E12004D2711 /* BooksViewController.xib */,
+				719E1DA62BA19A9D0093DAB5 /* BooksTableViewCell.swift */,
+				719E1DA72BA19A9D0093DAB5 /* BooksTableViewCell.xib */,
 			);
 			path = UIKitExercise;
 			sourceTree = "<group>";
@@ -152,10 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				718B71FD2BA0887A004D2711 /* SignInViewController.xib in Resources */,
+				719E1DA82BA19A9D0093DAB5 /* BooksTableViewCell.xib in Resources */,
 				718B71F02BA0793A004D2711 /* Assets.xcassets in Resources */,
 				718B71F32BA0793A004D2711 /* Base in Resources */,
 				718B71EB2BA07938004D2711 /* Base in Resources */,
-				718B72092BA18E12004D2711 /* AppsViewController.xib in Resources */,
+				718B72092BA18E12004D2711 /* BooksViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +174,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				718B71EE2BA07938004D2711 /* UIKitExercise.xcdatamodeld in Sources */,
-				718B720A2BA18E12004D2711 /* AppsViewController.swift in Sources */,
+				719E1DA92BA19A9D0093DAB5 /* BooksTableViewCell.swift in Sources */,
+				718B720A2BA18E12004D2711 /* BooksViewController.swift in Sources */,
 				718B71E82BA07938004D2711 /* ViewController.swift in Sources */,
 				718B71E42BA07938004D2711 /* AppDelegate.swift in Sources */,
 				718B71FC2BA0887A004D2711 /* SignInViewController.swift in Sources */,
